@@ -105,7 +105,7 @@ public class EurekaDiscoveryClientConfiguration {
 
 		public void onApplicationEvent(RefreshScopeRefreshedEvent event) {
 			//patch info --- do nothing
-			log.info("接收到RefreshScopeRefreshedEvent刷新事件");
+			log.info("Have received RefreshScopeRefreshedEvent refresh event");
 //			// This will force the creation of the EurkaClient bean if not already created
 //			// to make sure the client will be reregistered after a refresh event
 //			if (eurekaClient != null) {
