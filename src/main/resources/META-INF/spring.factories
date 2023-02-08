@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=top.yonyong.spring.cloud.netflix.eureka.patch.configuration.EurekaPatchAutoConfiguration\
+  ,top.yonyong.spring.cloud.netflix.eureka.patch.configuration.EurekaPatchDefaultConfiguration
